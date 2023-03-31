@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'json'
+gem 'rack-contrib'
+gem 'sinatra'               # Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.
+gem 'sinatra-contrib'       # Collection of useful Sinatra extensions

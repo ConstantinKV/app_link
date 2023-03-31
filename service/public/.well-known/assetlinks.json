@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.saltedge.applink",
+      "sha256_cert_fingerprints": [
+        "49:62:B0:E8:45:D6:2C:0E:E8:BC:38:D0:E7:04:AF:3A:DF:03:58:FC:B8:56:1B:B6:8C:0B:3E:82:1E:F3:4C:47"
+      ]
+    }
+  }
+]
