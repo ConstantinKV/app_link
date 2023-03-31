@@ -31,11 +31,6 @@
 
                 <data android:scheme="https" android:host="a193-195-22-227-78.ngrok.io" android:path="/ob-app" />
             </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="applink" android:host="a193-195-22-227-78.ngrok.io" android:pathPattern="/ob-app" />
-            </intent-filter>
         </activity>
     </application>
 </manifest>

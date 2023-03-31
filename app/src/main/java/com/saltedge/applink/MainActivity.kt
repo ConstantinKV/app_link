@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         val stateView = this.findViewById(R.id.stateView) as TextView
         if (Intent.ACTION_VIEW == appLinkAction) {
             Log.d("APP_LINK_TEST", "appLinkData: $appLinkData")
-            // Example: https://a193-195-22-227-78.ngrok.io/ob-app?state=123456789&client_id=123465789
             appLinkData?.let { data ->
                 val path: String? = data.path
                 if (path?.contains("ob-app") == true) {
