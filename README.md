@@ -9,3 +9,6 @@
 5. Setup `/service/public/.well-known/assetlinks.json`
 6. Run project: `ruby service.rb`
 7. Build Android app
+
+![Web App](/screen_web_app.jpg)  
+![Mobile App](/screen_mob_app.jpg)  
